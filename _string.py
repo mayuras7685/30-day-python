@@ -1,3 +1,4 @@
+#every instructions apply to all code in order
 str1 = "My name is mayur"
 
 print(type(str1))
