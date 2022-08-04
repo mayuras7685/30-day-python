@@ -1,3 +1,4 @@
+#every instructions apply to all code in order
 """
 variables naming rules:
 variable name must start with a letter or the underscore character

@@ -1,3 +1,4 @@
+#every instructions apply to all code in order
 """
 This is multi line comment
 we done this using three double quotes
