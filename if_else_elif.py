@@ -50,4 +50,14 @@ else:
   print("you can not drive")
 
 
+# Short Hand If
+a = 17
+b = 15
+if a > b: print("a is greater than b")
+# output : a is greater than b
 
+# Short Hand If ... Else
+i = 2
+j = 330
+print("I") if i > j else print("J")
+# output : J
