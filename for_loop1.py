@@ -76,3 +76,66 @@ output:
 4
 5
 """
+
+#Increment the sequence with 3 (default is 1):
+for y in range(2, 30, 3):
+  print(y)
+"""
+output:
+2
+5
+8
+11
+14
+17
+20
+23
+26
+29
+"""
+
+#else in for loop
+for z in range(6):
+  print(z)
+else:
+  print("Finally finished!")
+
+"""
+output:
+0
+1
+2
+3
+4
+5
+Finally finished!
+"""
+
+#Nested loops
+
+#genrate ipl team names using nested for loop
+city = ["ahmedabad", "mumbai", "kolkata", "pune"]
+team_name = ["titans", "indians", "knight rider", "super giants"]
+
+for p in city:
+  for q in team_name:
+    print(p, q)
+"""
+output:
+ahmedabad titans
+ahmedabad indians
+ahmedabad knight rider
+ahmedabad super giants
+mumbai titans
+mumbai indians
+mumbai knight rider
+mumbai super giants
+kolkata titans
+kolkata indians
+kolkata knight rider
+kolkata super giants
+pune titans
+pune indians
+pune knight rider
+pune super giants
+"""
