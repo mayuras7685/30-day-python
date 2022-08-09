@@ -28,3 +28,20 @@ def add(num1, num2) -> int:
 ans = add(1, 4)
 print(ans)
 # output:5
+
+"""
+Docstring
+The first string after the function is called the Document string or Docstring in short. This is used to describe the functionality of the function.
+"""
+
+def evenOdd(x):
+    """Function to check if the number is even or odd"""
+     
+    if (x % 2 == 0):
+        print("even")
+    else:
+        print("odd")
+
+# print out the docstring of a function
+print(evenOdd.__doc__)
+# output: Function to check if the number is even or odd
