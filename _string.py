@@ -59,3 +59,35 @@ print(str2.isnumeric())#True
 print("mayur" in str1)#True
 
 print("mohit" not in str1)#True
+
+print(str1.strip())
+
+print(str1.lstrip())
+
+print(str1.rstrip()) #Returns a copy of the string without left / right / left or right whitespace
+
+print(str1.split()) #['My', 'name', 'is', 'mayur']  
+
+str6 = ['banana', 'apple', 'chiku', 'mango', 'all', 'are', 'fruits.']
+print(' '.join(str6))  
+# output: banana apple chiku mango all are fruits.
+
+
+
+#string formating 
+"""
+The format method returns a copy of the string where the {} placeholders have been replaced with the values of the variables"""
+
+y = 15
+formatted_string = 'the value of y is {}'.format(y)
+print(formatted_string)
+# output: the value of y is 15
+
+"""If the placeholders include a colon, what comes after the colon is a formatting expression"""
+
+'{:.0f}'.format(10.5)       #output → '10'
+'{:.2f}'.format(0.5)        #output → '0.50'
+'{:.2s}'.format('Python')   #output → 'Py'
+'{:<6s}'.format('Py')       #output → 'Py    '
+'{:>6s}'.format('Py')       #output → '    Py'
+'{:^6s}'.format('Py')       #output → '  Py  '
