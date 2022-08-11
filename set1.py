@@ -12,3 +12,14 @@ Set items can appear in a different order every time you use them, and cannot be
 set2 = {2, 3, 4, 2, 5, 6, 3}
 print(set2)
 # output: {2, 3, 4, 5, 6}
+
+#length of a set
+print(len(set2))
+# output: 5
+
+#Using the set() constructor to make a set
+
+l1 = [2, 3, 4, 5, 2, 4]
+l2 = set(l1)
+print(type(l2)) #<class 'set'>
+print(l2) #{2, 3, 4, 5}
