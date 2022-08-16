@@ -7,7 +7,7 @@ Dict1 = dict([(1, 'Gimi'), (2, 'Fri')])
 print("\nDictionary with each item as a pair: ")
 print(Dict1)
 #Dictionary with each item as a pair: 
-#{1: 'Geeks', 2: 'For'}
+#{1: 'Gimi', 2: 'Fri'}
 
 
 #Add elements in dict
@@ -19,10 +19,12 @@ Dict2[3] = "Samir"
 #output : {0: 'Mayur', 2: 'Mohit', 3: 'Samir'}
 
 #access a element of dict
-print(Dict2['Mohit'])
-#output :  2
+print(Dict2[2])
+#output :  Mohit
+print(Dict2['Mayru'])
+#output : 0
 
-#same for key
+
 
 #some dict methods
 
