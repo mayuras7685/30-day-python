@@ -1,7 +1,7 @@
 # Python File IO Basics
 """
-"r"- open file for reading
-"w"- open file for writing
+"r"- open file for reading - default
+"w"- open file for writing - default
 "x"- creates file if not exists
 "a"- add more conntent to a file
 "t"- text mode
@@ -13,6 +13,7 @@ f = open(filename, mode)
 # to open file in read mode
 f= open("file.txt", "r")
 f.read()
+f.close()
 
 # to open file in write mode 
 """
@@ -31,6 +32,5 @@ f=("Mayur1.txt","r+")
 content=f.read()
 print(content)
 f.close()
-
 
 
