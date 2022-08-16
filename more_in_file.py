@@ -25,3 +25,14 @@ print(f.readline())
 f.seek(0) # reset file pointer to 0
 print(f.tell()) #output : 16
 print(f.readline())
+
+
+# using with block open file
+
+with open("mayur.txt") as f:
+  a = f.read(5)
+  print(a)
+
+# output : My na
+
+# Advantage of with block: do not need to use f.close() to close file
