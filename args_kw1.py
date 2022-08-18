@@ -1,3 +1,6 @@
+"""
+we use the “*” notation like this – *args OR **kwargs – as our function’s argument when we have doubts about the number of  arguments we should pass in a function.” 
+"""
 def funargs(normal, *args, **kw):
   print(normal)
   for item in args:
