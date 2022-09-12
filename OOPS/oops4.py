@@ -82,3 +82,34 @@ Derived
 abc xyz
 """
 
+#multilevel inheritance
+class Dad:
+    basketball = 1
+    def isbasketball(self):
+        return f"yes i play basketball {self.basketball} no. of times"
+
+class Son(Dad):
+    dance = 1
+    basketball = 3
+    def isdance(self):
+        return f"yes I dance {self.dance} no. of times"
+
+class Grandson (Son):
+    dance = 6
+    basketball = 5
+
+    def isdance(self):
+            return f"yes I dance {self.dance} no. of times"
+
+darry=Dad()
+larry=Son()
+harry=Grandson()
+
+print(harry.isdance())
+print(harry.isbasketball())
+
+"""
+output:
+yes I dance 6 no. of times
+yes i play basketball 5 no. of times
+"""
